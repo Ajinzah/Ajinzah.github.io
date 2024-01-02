@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB PEERTAMA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/icon/partner.png" alt="logo" class="logo-img" />
+        <h1 class="logo-tittle">MY WEBSITE</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#Tugas STI">Tugas STI</a></li>
+          <li><a href="mailto:azizah@icloud.com">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Follow saya</button>
+    </header>
+    <div class="container">
+      <div class="intro" id="home">
+        <p class="tittle">Hello,Nama Saya</p>
+        <p class="descripsion">Siti Nur Ajinjah</p>
+        <img src="assets/foto/bg3.jpg" alt="azizah foto 1" class="img-foto" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="tittle">belajar pemograman</p>
+        <p class="descripsion">semangat Belajarnya</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            mari Belajar Bersama
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="card-item" id="Tugas STI">
+            <img src="assets/icon/wrench.png" alt="icon 1" class="icon" />
+            <a
+              href="icon/jawaban soal latihan soal STI.docx"
+              download="icon/jawaban latihan soal STI.docx"
+              >TUGAS TENTANG SOFTWARE</a
+            >
+            <p class="card-tittle">Tugas Pertama</p>
+            <p class="card-descripsion">Materi Mengenai Software</p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/24-hours.png" alt="icon 2" class="icon" />
+            <a
+              href="file/latihan mengetik 10 jari_files"
+              download="file/latihan mengetik 10 jari_files"
+              >mengetik 10 jari</a
+            >
+            <p class="card-tittle">Tugas Kedua</p>
+            <p class="card-descripsion">Mengetik Dengan 10 Jari</p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/rating.png" alt="icon 3" class="icon" />
+            <a href="file/tugas 3.pdf" download="file/tugas 3.pdf">Exel</a>
+            <p class="card-tittle">Tugas Ketiga</p>
+            <p class="card-descripsion">Membuat Rumus Rumus Exel</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="tittle">&copy; Siti Nur Azizah website 2023</p>
+    </footer>
+
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://instagram.com/ajinzah_04";
+      }
+      function redirWhatsapp() {
+        window.location.href = "https://wa.me/+6287823555591";
+      }
+    </script>
+  </body>
+</html>
